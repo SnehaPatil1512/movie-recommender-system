@@ -28,3 +28,51 @@ File used: `tmdb_5000_movies.csv`
 
 ```bash
 pip install streamlit pandas scikit-learn
+
+## 2️⃣ Run the Streamlit app:
+
+```bash
+streamlit run movie_app.py
+
+📌 Your app will open automatically in your browser at:
+
+http://localhost:8501/
+
+You can enter a movie title (e.g., `Avatar`) and see 5 recommended similar movies.
+
+## 📂 Project Structure
+
+movie_recommender_system/
+├── movie_app.py               # Streamlit web app
+├── movie_recommender.ipynb    # Jupyter notebook (core logic)
+├── tmdb_5000_movies.csv       # Movie metadata
+├── README.md                  # Project documentation (this file)
+└── screenshots/               # (Optional) app interface images
+
+
+## 🎥 Sample Output
+
+**Example input:**  
+`Avatar`
+
+**Example output:**
+
+1. Planet of the Apes  
+2. Gravity  
+3. Aliens  
+4. Alien³  
+5. Soldier
+
+
+## 🛠 Libraries Used
+
+- Python 3.10+  
+- pandas  
+- scikit-learn  
+- streamlit
+
+## 🙋‍♀️ Author
+
+**Sneha Patil**  
+🎓 AI/ML Internship Project
+
