@@ -51,7 +51,7 @@ movie_recommender_system/
 ├── movie_recommender.ipynb    # Jupyter notebook with core logic
 ├── tmdb_5000_movies.csv       # Movie metadata CSV file
 ├── README.md                  # Project documentation (this file)
-└── screenshots/               # (Optional) screenshots of the app interface
+
 ```
 
 ---
