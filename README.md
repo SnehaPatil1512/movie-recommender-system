@@ -56,8 +56,6 @@ movie_recommender_system/
 ---
 ## 📸 Screenshots
 
-### Movie Recommender System
-
 **Input Screen:**  
 ![Movie App Input](screenshots/movie_app_home.png)
 
