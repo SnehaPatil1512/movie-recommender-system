@@ -6,10 +6,10 @@ A simple content-based movie recommender system built using **Python**, **Pandas
 
 ## 📌 Features
 
-- Recommends similar movies based on genres and keywords
-- Uses TF-IDF Vectorizer + Cosine Similarity
-- Clean and easy Streamlit UI
-- Instant top-5 recommendations
+- Recommends similar movies based on genres and keywords  
+- Uses TF-IDF Vectorizer + Cosine Similarity for similarity computation  
+- Clean and easy-to-use Streamlit UI  
+- Instant top-5 movie recommendations  
 
 ---
 
@@ -29,26 +29,33 @@ File used: `tmdb_5000_movies.csv`
 ```bash
 pip install streamlit pandas scikit-learn
 
-## 2️⃣ Run the Streamlit app:
+
+---
+
+### 2️⃣ Run the Streamlit app
 
 ```bash
 streamlit run movie_app.py
 
-📌 Your app will open automatically in your browser at:
+---
 
-http://localhost:8501/
+📌 The app will open automatically in your default web browser at:  
+[http://localhost:8501/](http://localhost:8501/)
 
 You can enter a movie title (e.g., `Avatar`) and see 5 recommended similar movies.
+
+---
 
 ## 📂 Project Structure
 
 movie_recommender_system/
-├── movie_app.py               # Streamlit web app
-├── movie_recommender.ipynb    # Jupyter notebook (core logic)
-├── tmdb_5000_movies.csv       # Movie metadata
+├── movie_app.py               # Streamlit web application
+├── movie_recommender.ipynb    # Jupyter notebook with core logic
+├── tmdb_5000_movies.csv       # Movie metadata CSV file
 ├── README.md                  # Project documentation (this file)
-└── screenshots/               # (Optional) app interface images
+└── screenshots/               # (Optional) screenshots of the app interface
 
+---
 
 ## 🎥 Sample Output
 
@@ -61,18 +68,22 @@ movie_recommender_system/
 2. Gravity  
 3. Aliens  
 4. Alien³  
-5. Soldier
+5. Soldier  
 
+---
 
 ## 🛠 Libraries Used
 
 - Python 3.10+  
 - pandas  
 - scikit-learn  
-- streamlit
+- streamlit  
+
+---
 
 ## 🙋‍♀️ Author
 
 **Sneha Patil**  
 🎓 AI/ML Internship Project
+
 
