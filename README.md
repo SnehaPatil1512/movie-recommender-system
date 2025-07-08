@@ -50,9 +50,19 @@ movie_recommender_system/
 ├── movie_app.py               # Streamlit web application
 ├── movie_recommender.ipynb    # Jupyter notebook with core logic
 ├── tmdb_5000_movies.csv       # Movie metadata CSV file
-├── README.md                  # Project documentation (this file)
+├── README.md                  # Project documentation (this file) 
 
 ```
+---
+## 📸 Screenshots
+
+### Movie Recommender System
+
+**Input Screen:**  
+![Movie App Input](screenshots/movie_app_home.png)
+
+**Recommendations Output:**  
+![Recommendations](screenshots/movie_recommendations.png)
 
 ---
 
